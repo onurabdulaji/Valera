@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "Backend\API\API.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Backend\Entity\Entity.csproj", "{CF60E981-7D95-4ED4-8926-89E51350C18D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{0FDBD3FC-5D9F-48AE-B050-63A83E709C31}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{CF60E981-7D95-4ED4-8926-89E51350C18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF60E981-7D95-4ED4-8926-89E51350C18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF60E981-7D95-4ED4-8926-89E51350C18D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FDBD3FC-5D9F-48AE-B050-63A83E709C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FDBD3FC-5D9F-48AE-B050-63A83E709C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FDBD3FC-5D9F-48AE-B050-63A83E709C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FDBD3FC-5D9F-48AE-B050-63A83E709C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +32,5 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E90DFB35-1B25-481F-BDCF-F5651094052E} = {FCA7D8F3-D36F-42AD-B063-CA6C6ADA18F9}
 		{CF60E981-7D95-4ED4-8926-89E51350C18D} = {FCA7D8F3-D36F-42AD-B063-CA6C6ADA18F9}
-		{0FDBD3FC-5D9F-48AE-B050-63A83E709C31} = {FCA7D8F3-D36F-42AD-B063-CA6C6ADA18F9}
 	EndGlobalSection
 EndGlobal
