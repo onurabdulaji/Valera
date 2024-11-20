@@ -9,6 +9,6 @@ namespace Entity.Models
 {
     public class ApplicationRole : IdentityRole<int>
     {
-
+        public string Description { get; set; } // Ek bir alan
     }
 }
