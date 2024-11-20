@@ -1,13 +1,16 @@
 
 using Bussines.Dependencies.ContextDI;
+using Bussines.Dependencies.DependencyDI;
 using Bussines.Dependencies.IdentityDI;
+using Bussines.Dependencies.MapperDI;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddContexts(builder.Configuration);
 builder.Services.AddIdentities();
+builder.Services.DependencyManagers(builder.Configuration);
+builder.Services.AddAutoMapper();
 
 
 builder.Services.AddControllers();
